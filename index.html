@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reponsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&family=Raleway:wght@100;300;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Raleway:wght@100;300;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header id=" header">
+            <nav class="navbar navbar-expand-lg custom-navbar fixed-top1" id="mainNav">
+                <div class="container header__row">
+                    <a class="navbar-brand fw-bold" href="#page-top">
+                        <img src="./img/logo.png" alt>
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav custom-navbar-nav ms-auto my-3 my-lg-0">
+                            <li class="nav-item"><a class="nav-link me-lg-3" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link me-lg-3" href="#">Bedroom </a></li>
+                            <li class="nav-item"><a class="nav-link me-lg-3" href="#">Lounge </a></li>
+                            <li class="nav-item"><a class="nav-link me-lg-3" href="#">Kitchen </a></li>
+                            <li class="nav-item"><a class="nav-link me-lg-3" href="#">Lighting </a></li>
+                            <li>
+                                <div class="header__search">
+                                    <input type="text" placeholder="Find something...">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="header__cart">
+                                    <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                                    <span class="cart-count" id="header-cart-count">0</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- header -->
+            <section class="banner">
+                <div class="container">
+                    <div class="row  banner__row">
+                        <div class="col-lg-4">
+                            <div class="premium">
+                                <div class="premium-title">
+                                    <h1 class="premium-heading">Premium collection</h1>
+                                </div>
+                                <div class="premium-text-grap">
+                                    <p class="custom-text-opensan-400 premium-text">
+                                        Lorem ipsum dolor sit amet, consectetuer
+                                        adipiscing elit, sed diam nonummy nibh
+                                        euismorem ipsum dolor sit amet,
+                                        consectetuer adipiscing elit
+                                    </p>
+                                </div>
+                                <div class="premium-price">
+                                    £2,300
+                                </div>
+                                <a class=" btn btn-primary premium-link" href="#">View the collection </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="premium-right">
+                                <div class="premium-right-img">
+                                    <img src="./img/banner-1.png" alt>
+                                </div>
+                                <div class="premium-right-items">
+                                    <div class="premium-right-item">
+                                        <div class="premium-right-item-name">
+                                            <a class="name" href="#"> Lorem
+                                                ipsum dolor sit amet</a>
+                                        </div>
+                                        <div class="premium-right-item-price">£2,300</div>
+                                    </div>
+                                    <div class="premium-right-item">
+                                        <div class="premium-right-item-names">
+                                            <a class="names" href="#">
+                                                Consectetuer adsed diam</a>
+                                        </div>
+                                        <div class="premium-right-item-price">£2,300</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <div class="contact">
+            <div id="content">
+                <div class="container">
+                    <div class="row content__row">
+                        <div class="col-lg-6">
+                            <div class="minimalist-image">
+                                <img src="./img/banner-2.jpg" alt>
+                            </div>
+                        </div>
+                        <div class="col-lg-1"></div>
+                        <div class="col-lg-5">
+                            <div class="minimalist-right">
+                                <div class="minimalist-text">
+                                    <p class>Living room</p>
+                                </div>
+                                <div class="minimalist-divider"></div>
+                                <div class="minimalist-title">
+                                    <h2>Minimalist furniture</h2>
+                                </div>
+                                <p class="custom-text-opensan-400 minimalist-text">Lorem,
+                                    ipsum dolor sit amet consectetur adipisicing
+                                    elit, sed diam nonummy nibh euismorem </p>
+                                <a class="btn btn-primary premium-link minamlist-link" href="#"> View armchairs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="sepical">
+                <div class="container">
+                    <div class="col-lg-12">
+                        <h2 class="sepical-heading text-center">Sepical discounts</h2>
+
+                        <div class="row special-row">
+                            <div class="why-title">
+                                <h3></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sepical-list">
+                        <div class="sepical-img">
+                            <a href="#" class="sepical-category">Chairs</a>
+                            <img src="./img/anh.png" alt>
+                            <div class="sepical-item">
+                                <div class="sepical-title">
+                                    <h3> Sweedish white</h3>
+                                </div>
+                                <p class="text">
+                                    <span class="desc">£299 </span>£199 | next dat
+                                    delivery
+                                </p>
+                                <a class="btn btn-primary premium-link minamlist-link" href="#"> View Sweedish white</a>
+                            </div>
+                        </div>
+                        <div class="sepical-img">
+                            <a href="#" class="sepical-category">Tables</a>
+                            <img src="./img/anh2.png" alt>
+                            <div class="sepical-item">
+                                <div class="sepical-title">
+                                    <h3> Tri-post table</h3>
+                                </div>
+                                <p class="text">
+                                    <span class="desc">£299 </span>£199 | next dat
+                                    delivery
+                                </p>
+                                <a class="btn btn-primary premium-link minamlist-link" href="#"> View Sweedish white</a>
+                            </div>
+                        </div>
+                        <div class="sepical-img">
+                            <img src="./img/anh3.png" alt>
+                            <div class="sepical-item">
+                                <div class="sepical-title">
+                                    <h3> Pixar lamp</h3>
+                                </div>
+                                <p class="text">
+                                    <span class="desc">£299 </span>£199 | next dat
+                                    delivery
+                                </p>
+                                <a class="btn btn-primary premium-link minamlist-link" href="#"> View Sweedish white</a>
+                            </div>
+                        </div>
+                        <div class="sepical-img">
+                            <img src="./img/anh.png" alt>
+                            <div class="sepical-item">
+                                <div class="sepical-title">
+                                    <h3> Sweedish white</h3>
+                                </div>
+                                <p class="text">
+                                    <span class="desc">£299 </span>£199 | next dat
+                                    delivery
+                                </p>
+                                <a class="btn btn-primary premium-link minamlist-link" href="#"> View Sweedish white</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-lounge">
+                <div class="container">
+                    <div class="row sec__banner ">
+                        <div class="col-lg-6 mb-3">
+                            <div class="lounge-col">
+                                <div class="lounge-col-img">
+                                    <div class="lounge-title">
+                                        <h3 class="sec-lounge-right">Lounge furniture</h3>
+                                        <a href="#" class="lounge-link">View
+                                            collections</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-12 mb-3">
+                                    <div class="lounge-col-img lounge-col-img1 py-2">
+                                        <div class="lounge-title">
+                                            <h3 class="sec-lounge-right">Bedroom furniture</h3>
+                                            <a href="#" class="lounge-link">View
+                                                collections</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 mb-3">
+                                    <div class="lounge-col-img lounge-col-img2 py-2">
+                                        <div class="lounge-title">
+                                            <h3 class="sec-lounge-right">Kitchens and kitchenware</h3>
+                                            <a href="#" class="lounge-link">View
+                                                collections</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4  ">
+                            <div class="lounge-col-img lounge-col-img3">
+                                <div class="lounge-title">
+
+                                    <h3 class="lounge-text lounge-text-white">Special
+                                        offers</h3>
+                                    <a href="#" class="lounge-link lounge-link-white">View
+                                        deals</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="lounge-col-img lounge-col-img4">
+                                <div class="lounge-title">
+                                    <h3 class="sec-lounge-right">Lighting</h3>
+                                    <a href="#" class="lounge-link">View deals</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sub">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 sub-col-left">
+
+                            <div class="sub-content">
+                                <h2 class="sub-title">
+                                    Join our mailing list
+                                </h2>
+                                <p class="custom-text-opensan">
+                                    Lorem ipsum dolor sit amet,
+                                    consectetuer
+                                    adipiscing elit, sed
+                                    nonummy nibh euismorem Lorem ipsum
+                                    dolor sit
+                                    amet,
+                                    consectetuer adipiscing elit, sed
+                                    diam nonummy
+                                    nibh.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="sub-form">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <input type="text" placeholder="Email address" class="sub-input">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" placeholder="Your name" class="sub-input">
+                                    </div>
+                                </div>
+                                <a href="#" class=" btn btn-brick sub-table">submit</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer__top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="row">
+                                <h3 class="footer__heading ">Departments</h3>
+                                <div class="Footer__row">
+                                    <div class="footer__text--left">
+                                        <li class="footer__text">
+                                            <a href="#" class="dark">living room</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="desgn">Sofas/chairs</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="desgn">Lorem
+                                                ipsum</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="desgn">Dolor sit
+                                                amet</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="desgn">Consecteuer</a>
+                                        </li>
+                                        <li class="footer__text">
+                                            <a href="#" class="dark">Bathoom</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="desgn">Sofas/chairs</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="desgn">Lorem
+                                                ipsum</a>
+                                        </li>
+                                    </div>
+                                    <div class="col-lg-5  footer__bathoom-col">
+                                        <li class="footer__text">
+
+                                            <a href="#" class="dark">Bathoom</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="desgn">Sofas/chairs</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="desgn">Lorem ipsum</a>
+                                        </li>
+                                        <li class="footer__text">
+                                            <a href="#" class="dark">Bedroom</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="desgn">Lorem ipsum</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="desgn">Dolor sit amet</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="desgn">Consecteuer</a>
+                                        </li>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-2  bathoom-col">
+                            <h3 class="footer__heading">Contact</h3>
+
+                            <li class="footer__text">
+                                <a href="#" class="dark">Customer support</a>
+                            </li>
+                            <li>
+                                <a href="#" class="desgn">Call 01482 128394</a>
+                            </li>
+                            <li>
+                                <a href="#" class="desgn">Send us message</a>
+                            </li>
+                            <li class="footer__text">
+                                <a href="#" class="dark">The team</a>
+                            </li>
+                            <li>
+                                <a href="#" class="desgn">About us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="desgn">Tem careers</a>
+                            </li>
+
+                        </div>
+
+                        <div class="col-lg-6 footer__icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-skype"></i>
+                            <i class="fa-brands fa-pinterest-p"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer-copyright container">
+                    <a href="#" class=" footer-right container">Made in Hornsea, East
+                        Yorkshire, England | www.uirepublic.net</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="./app.js"></script>
+
+</html>
