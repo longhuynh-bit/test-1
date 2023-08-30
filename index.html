@@ -7,50 +7,48 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reponsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&family=Raleway:wght@100;300;600;700&display=swap"
         rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@900&display=swap" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Raleway:wght@100;300;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reponsive.css">
 </head>
 
 <body>
     <div id="wrapper">
-        <header id=" header">
+        <header id="header">
             <nav class="navbar navbar-expand-lg custom-navbar fixed-top1" id="mainNav">
                 <div class="container header__row">
                     <a class="navbar-brand fw-bold" href="#page-top">
                         <img src="./img/logo.png" alt>
                     </a>
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <div id="mobile-menu" class="mobile-menu-btn">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class=" navbar-menu ">
                         <ul class="navbar-nav custom-navbar-nav ms-auto my-3 my-lg-0">
                             <li class="nav-item"><a class="nav-link me-lg-3" href="#">Home</a></li>
                             <li class="nav-item"><a class="nav-link me-lg-3" href="#">Bedroom </a></li>
                             <li class="nav-item"><a class="nav-link me-lg-3" href="#">Lounge </a></li>
                             <li class="nav-item"><a class="nav-link me-lg-3" href="#">Kitchen </a></li>
                             <li class="nav-item"><a class="nav-link me-lg-3" href="#">Lighting </a></li>
-                            <li>
+                            <li class="nav-item " id="item-search">
                                 <div class="header__search">
                                     <input type="text" placeholder="Find something...">
                                     <i class="fa-solid fa-magnifying-glass"></i>
                                 </div>
                             </li>
-                            <li>
+                            <li class="nav-item " id="item-car">
                                 <div class="header__cart">
                                     <i class="fa-sharp fa-solid fa-cart-shopping"></i>
                                     <span class="cart-count" id="header-cart-count">0</span>

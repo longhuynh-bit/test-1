@@ -5,13 +5,13 @@ body {
   color: #2c2e35;
 }
 
-header {
-  background-image: url(./img/bg-tron-1.png);
-  background-color: white;
-  background-position: top right;
+#header {
+  background: url("../img/bg-tron-1.png") top right / cover no-repeat;
   background-size: 44%;
   padding-top: 1px;
-  background-repeat: no-repeat;
+}
+.header__row {
+  align-items: normal !important;
 }
 .header__row img {
   width: 162px;
@@ -20,12 +20,26 @@ header {
 .search-container {
   position: relative;
 }
+#mobile-menu {
+  display: none;
+}
+.navbar_list {
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.5;
+}
+.navbar-menu.active {
+  display: flex;
+}
 a.navbar-brand.fw-bold {
   max-width: 200px;
 }
 a.nav-link.me-lg-3 {
   margin-right: 40px !important;
   gap: 46px;
+}
+.header__cart {
+  padding-left: 30px;
 }
 .navbar-nav {
   align-items: center;
@@ -138,26 +152,27 @@ h1.premium-heading {
 .premium-right {
   position: relative;
 }
-.premium-right-item-name {
-  text-align: right;
-}
+
 .premium-right-item-price {
   color: white;
+  font-weight: 700;
 }
 
 /* content */
 #content {
   padding-top: 190px;
 }
+.premium-right-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
 .names {
   color: white;
-  margin-left: 16px;
-  font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
 }
 .name {
   font-weight: 400;
-  font-family: "Open Sans", sans-serif;
 }
 .minimalist-divider {
   width: 90px;
@@ -169,7 +184,6 @@ h1.premium-heading {
 }
 .custom-text-opensan-400 {
   font-weight: 400;
-  font-family: "Open Sans", sans-serif;
   color: #46464e;
 }
 .minimalist-title h2 {
@@ -204,10 +218,8 @@ h1.premium-heading {
 /* sepical */
 #sepical {
   padding: 38px 0 100px;
-  background-image: url(./img/bg-tron-2.png);
-  background-position: top left;
+  background: url("../img/bg-tron-2.png") top left / cover no-repeat;
   background-size: 34%;
-  background-repeat: no-repeat;
 }
 .sepical-heading {
   font-weight: bold;
@@ -245,11 +257,15 @@ h1.premium-heading {
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 28px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  line-height: 24px;
+  height: 48px;
 }
-.text {
-  font-weight: 400;
-  font-family: "Open Sans", sans-serif;
-}
+
 .sepical-link {
   margin-top: 25px;
 }
@@ -317,7 +333,7 @@ a.sepical-category {
 
 /* sec-lounge */
 .lounge-col-img {
-  background-image: url(./img/dog.png);
+  background: url("../img/dog.png") top/cover no-repeat;
   background-color: rgba(255, 255, 255, 0.5);
   display: flex;
   align-items: center;
@@ -361,7 +377,7 @@ a.sepical-category {
   z-index: 2;
 }
 .lounge-col-img1 {
-  background-image: url(./img/dog2.png);
+  background: url("../img/dog2.png") top/cover no-repeat;
   min-height: 300px;
 }
 .lounge-col-img1::before {
@@ -369,20 +385,20 @@ a.sepical-category {
 }
 .lounge-col-img2 {
   min-height: 336px;
-  background-image: url(./img/dog3.png);
+  background: url("../img/dog3.png") top/cover no-repeat;
 }
 .lounge-col-img2::before {
   background-color: #685f80;
 }
 .lounge-col-img3 {
-  background-image: url(./img/dog5.png);
+  background: url("../img/dog5.png") top/cover no-repeat;
   min-height: 440px;
 }
 .lounge-col-img3::before {
   background-color: #636067;
 }
 .lounge-col-img4 {
-  background-image: url(./img/dog6.png);
+  background: url("../img/dog6.png") top/ cover no-repeat;
   min-height: 440px;
 }
 .lounge-col-img4::before {
@@ -466,12 +482,6 @@ li {
   display: flex;
 }
 
-.footer-img {
-  background-image: url(./img/hìnhtroncuoi.jpg);
-  background-repeat: top right;
-  background-position: center;
-  background-size: cover;
-}
 .footer__heading {
   font-weight: 700;
   font-size: 32px;
