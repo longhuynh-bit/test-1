@@ -45,6 +45,7 @@
     flex-direction: column;
     text-align: center;
     position: absolute;
+    z-index: 1;
     top: 76px;
     left: 0;
     right: 0;
@@ -94,5 +95,32 @@
   }
   .lounge-col-img4 {
     margin-top: 1rem;
+  }
+  .sub-form {
+    margin-right: 0px;
+  }
+  .footer__heading {
+    font-size: 20px;
+    margin: 20px 0px 10px;
+  }
+  .footer__text--left li {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 576px) {
+  h1.premium-heading {
+    font-size: 30px;
+  }
+  .minimalist-title h2,
+  .sub-title,
+  .sepical-heading {
+    font-size: 20px;
+  }
+  .sepical-heading {
+    margin-bottom: 20px;
+  }
+  .sepical-list .sepical-img img {
+    max-width: 100%;
+    height: 600px;
   }
 }

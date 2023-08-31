@@ -438,6 +438,7 @@ button.slick-arrow {
   overflow: hidden;
 }
 .footer__top {
+  position: relative;
   padding-top: 100px;
   padding-bottom: 160px;
 }
@@ -499,6 +500,7 @@ li {
   padding: 0px 10px;
 }
 .footer__bottom {
+  position: relative;
   border-top: 1px solid #46464e;
   padding-top: 40px;
   padding-bottom: 40px;
